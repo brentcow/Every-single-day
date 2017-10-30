@@ -1,54 +1,64 @@
 body{
-    /* background-color: #FFF0F5; */
-    background-color: #f7f7f7;
-
+  /* background-color: #FFF0F5; */
+  background-color: #f7f7f7;
 }
 .logo{
-position: absolute;
-width: 600px;
-height: auto;
-left: -5%;
-top: -5%;
+  position: absolute;
+  width: 600px;
+  height: auto;
+  left: -5%;
+  top: -5%;
 }
 .intro{
-    font-variant: small-caps;
-    font-family:'宋体',sans-serif;
-    margin-top: 10%;
-    margin-left: 3%;
+  font-variant: small-caps;
+  font-family:'宋体',sans-serif;
+  margin-top: 10%;
+  margin-left: 3%;
 }
 .tree{
-position: fixed;
-transform: rotate(-15deg);
-width: 10%;
-height: 60%;
-opacity: 0.05;
+  position: fixed;
+  transform: rotate(-15deg);
+  width: 10%;
+  height: 60%;
+  opacity: 0.05;
 }
 #f_tree{
-left: 0%;
-top: 10%;
+  left: 0%;
+  top: 10%;
 }
 #s_tree{
-left: 10%;
-top: 40%;  
+  left: 10%;
+  top: 40%;  
 }
 #th_tree{
-right: 0%;
-top: 0;
-transform: scaleX(-1) rotate(-10deg);
+  right: 0%;
+  top: 0;
+  transform: scaleX(-1) rotate(-10deg);
 }
 
-.self-picture {
-width: 20%;
-height: 30%;
-        border-radius: 100%;
-position: absolute;
-top: 40%;
-left: 5%
+.self-picture{
+  width: 20%;
+  height: 30%;
+  border-radius: 100%;
+  position: absolute;
 }
 .selfintro{
-    font-family:'宋体',sans-serif;
-    margin-top: 7%;
-    margin-left: 25%; 
-position: absolute;
-
+  font-family:'宋体',sans-serif;
+  position: absolute;
+}
+#f_self{
+  top: 40%;
+  left: 5%
+}
+#f_selfintro{
+  margin-top: 7%;
+  margin-left: 25%;
+}
+#s_self{
+  top: 80%;
+  right: 5%
+}
+#s_selfintro{
+  margin-top: 25%;
+  margin-left: 13%;
 }
