@@ -63,7 +63,8 @@ body{
   margin-left: 13%;
 }
 #z-self{
-  top:600px;
+  position:relative;
+  top:40%;
   left:5%;
 }
 #z_selfintro{
